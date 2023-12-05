@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import All from '../../components/all/All';
+import Frontend from '../../components/frontend/Frontend'
 import './contents.scss'
 
 export default function Contents() {
@@ -53,6 +54,7 @@ export default function Contents() {
             </div>
 
             { selectedTab === 'all' ? <All /> : null}
+            { selectedTab === 'frontend' ? <Frontend /> : null}
         </div>
     </div>
   )

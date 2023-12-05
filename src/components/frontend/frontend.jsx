@@ -1,4 +1,4 @@
-import './all.scss'
+import './frontend.scss'
 
 export default function All() {
   return (
