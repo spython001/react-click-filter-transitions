@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import All from '../../components/all/All';
 import './contents.scss'
 
 export default function Contents() {
@@ -50,6 +51,8 @@ export default function Contents() {
                 FULLSTACK
               </button>
             </div>
+
+            { selectedTab === 'all' ? <All/> : null}
         </div>
     </div>
   )
