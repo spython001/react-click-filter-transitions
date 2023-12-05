@@ -1,4 +1,5 @@
 import './App.scss'
+import Sidebar from './components/sidebar/Sidebar'
 import Topbar from './components/topbar/Topbar'
 import Contents from './pages/contents/Contents'
 
@@ -10,6 +11,7 @@ function App() {
 
       <div className="container">
         <Contents/>
+        <Sidebar/>
       </div>
     </div>
   )
