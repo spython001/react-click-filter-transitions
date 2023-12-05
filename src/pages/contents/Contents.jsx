@@ -52,7 +52,7 @@ export default function Contents() {
               </button>
             </div>
 
-            { selectedTab === 'all' ? <All/> : null}
+            { selectedTab === 'all' ? <All /> : null}
         </div>
     </div>
   )
