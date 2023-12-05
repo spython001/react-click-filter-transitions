@@ -1,12 +1,14 @@
 .contents{
-    flex:1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
 
     .wrapper{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 50px;
+
+        .top{
+            display: flex;
+        }
     }
 }
