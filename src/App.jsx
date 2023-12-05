@@ -1,5 +1,6 @@
 import './App.scss'
 import Topbar from './components/topbar/Topbar'
+import Contents from './pages/contents/Contents'
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
       <Topbar/>
 
       <div className="container">
-        
+        <Contents/>
       </div>
     </div>
   )
