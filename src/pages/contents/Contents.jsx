@@ -9,6 +9,42 @@ export default function Contents() {
   const handleClick = (button) => {
     setSelectedTab(button);
   }
+
+
+  //EVENTS
+  const events = [
+    {
+        id:1,
+        title: 'Backend',
+        date: 'January 30th - February 1st',
+        eventName: 'THAT Confrence Texas',
+    },
+    {
+      id:2,
+      title: 'Fullstack',
+      date: 'Febraury 29th - March 1st',
+      eventName: 'DEVWORLD',
+    },
+    {
+      id:3,
+      title: 'Backend',
+      date: 'March 19th - March 22nd',
+      eventName: 'SQLBits',
+    },
+    {
+      id:4,
+      title: 'Frontend',
+      date: 'June 6th - June 7th',
+      eventName: 'CSS Day',
+    },
+    {
+      id:5,
+      title: 'Frontend',
+      date: 'July 11th - July 15th',
+      eventName: 'Mock Day',
+    },
+  ]
+
     
   
   return (
@@ -53,8 +89,8 @@ export default function Contents() {
               </button>
             </div>
 
-            { selectedTab === 'all' ? <All /> : null}
-            { selectedTab === 'frontend' ? <Frontend /> : null}
+            { selectedTab === 'all' ? <All events={events}/> : null}
+            { selectedTab === 'frontend' ? <Frontend events={events}/> : null}
         </div>
     </div>
   )
