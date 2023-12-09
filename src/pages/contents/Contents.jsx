@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import All from '../../components/all/All';
+import Backend from '../../components/backend/Backend';
 import Frontend from '../../components/frontend/Frontend'
 import './contents.scss'
 
@@ -91,6 +92,7 @@ export default function Contents() {
 
             { selectedTab === 'all' ? <All events={events}/> : null}
             { selectedTab === 'frontend' ? <Frontend events={events}/> : null}
+            { selectedTab === 'backend' ? <Backend events={events}/> : null}
         </div>
     </div>
   )

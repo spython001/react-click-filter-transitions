@@ -1,0 +1,23 @@
+.all{
+    margin-top: 30px;
+
+    .wrapper{
+        margin-top: 10px;
+        text-align: justify;
+
+        p{
+            margin-top: 20px;
+            font-size: 1.5rem;
+            font-weight: 500;
+            line-height: 1.5rem;
+        }
+
+        hr{
+            width: 100%;
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border: none;
+            border-bottom: 1px solid #000;
+        }
+    }
+}
